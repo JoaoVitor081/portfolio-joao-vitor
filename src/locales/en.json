@@ -1,0 +1,105 @@
+{
+    "meta": {
+      "title": "João Vitor Silva Machado | Web & Mobile Developer",
+      "description": "Portfolio of João Vitor Silva Machado, a Web and Mobile developer with 3 years of experience in React, React Native, Node.js, and AI applied to development."
+    },
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hi, I'm",
+      "name": "João Vitor Silva Machado",
+      "role": "Web & Mobile Developer",
+      "subtitle": "Turning ideas into code.",
+      "cta_projects": "View Projects",
+      "cta_resume": "Download Resume"
+    },
+    "about": {
+      "title": "About Me",
+      "text": "I have 3 years of experience as a Web and Mobile developer, working as a freelancer while continuing to grow as a student in the field. I'm currently looking to join a company on a full-time basis to apply and evolve my skills in a collaborative environment. My focus is on building quality Web and Mobile solutions, and I increasingly use Artificial Intelligence as a differentiator in my development process — speeding up delivery and optimizing how I write and organize code."
+    },
+    "skills": {
+      "title": "Skills",
+      "categories": {
+        "web": "Web",
+        "mobile": "Mobile",
+        "backend": "Backend",
+        "database": "Database",
+        "tools": "Tools",
+        "ai": "Applied AI"
+      },
+      "ai_highlight": "I use AI to accelerate development, generate code, and optimize workflows.",
+      "stack_tag": "<technical-stack />"
+    },
+    "experience": {
+      "title": "Professional Experience",
+      "present": "Present",
+      "freelancer": {
+        "role": "Freelance Developer",
+        "company": "Self-employed",
+        "description": "Development of Web and Mobile projects for various clients, working independently."
+      },
+      "student": {
+        "role": "Development Student",
+        "company": "Continuous Education",
+        "description": "Deepening knowledge in Web, Mobile technologies, and Artificial Intelligence applied to development."
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "view_code": "View Code",
+      "view_live": "View Project",
+      "featured_badge": "Featured",
+      "placeholder_title": "Project coming soon",
+      "placeholder_desc": "Project description will be added here.",
+      "connectngo": {
+        "title": "ConnectNGO",
+        "description": "Platform that connects donors to NGOs, offering points that can be exchanged for benefits with partner companies."
+      }
+    },
+    "services": {
+      "title": "Services",
+      "web_dev": {
+        "title": "Web Development",
+        "desc": "Modern, responsive, and high-performance websites and systems."
+      },
+      "mobile_dev": {
+        "title": "Mobile Development",
+        "desc": "Cross-platform apps with React Native and Flutter."
+      },
+      "ai_integration": {
+        "title": "AI Integration",
+        "desc": "Solutions that leverage Artificial Intelligence to automate and optimize processes."
+      },
+      "database": {
+        "title": "Database Modeling & Management",
+        "desc": "Design, modeling, and administration of relational and non-relational databases."
+      }
+    },
+    "resume": {
+      "title": "Resume",
+      "text": "Download my full resume in PDF.",
+      "download": "Download Resume"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Let's talk about your next project or opportunity.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send Message",
+        "success": "Message sent successfully!",
+        "error": "Error sending message. Please try again."
+      }
+    },
+    "footer": {
+      "rights": "All rights reserved.",
+      "made_with": "Made with code and coffee."
+    }
+  }

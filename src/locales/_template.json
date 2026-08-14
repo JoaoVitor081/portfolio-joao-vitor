@@ -1,0 +1,42 @@
+{
+    "_comment": "Copie este arquivo para fr.json ou es.json e traduza todas as chaves. Não altere as chaves.",
+    "meta": { "title": "", "description": "" },
+    "nav": { "about": "", "skills": "", "experience": "", "projects": "", "services": "", "contact": "" },
+    "hero": { "greeting": "", "name": "João Vitor Silva Machado", "role": "", "subtitle": "", "cta_projects": "", "cta_resume": "" },
+    "about": { "title": "", "text": "" },
+    "skills": {
+      "title": "",
+      "categories": { "web": "", "mobile": "", "backend": "", "database": "", "tools": "", "ai": "" },
+      "ai_highlight": "",
+      "stack_tag": ""
+    },
+    "experience": {
+      "title": "",
+      "present": "",
+      "freelancer": { "role": "", "company": "", "description": "" },
+      "student": { "role": "", "company": "", "description": "" }
+    },
+    "projects": {
+      "title": "",
+      "view_code": "",
+      "view_live": "",
+      "featured_badge": "",
+      "placeholder_title": "",
+      "placeholder_desc": "",
+      "connectngo": { "title": "ConnectNGO", "description": "" }
+    },
+    "services": {
+      "title": "",
+      "web_dev": { "title": "", "desc": "" },
+      "mobile_dev": { "title": "", "desc": "" },
+      "ai_integration": { "title": "", "desc": "" },
+      "database": { "title": "", "desc": "" }
+    },
+    "resume": { "title": "", "text": "", "download": "" },
+    "contact": {
+      "title": "",
+      "subtitle": "",
+      "form": { "name": "", "email": "", "message": "", "submit": "", "success": "", "error": "" }
+    },
+    "footer": { "rights": "", "made_with": "" }
+  }

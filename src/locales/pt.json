@@ -1,0 +1,105 @@
+{
+    "meta": {
+      "title": "João Vitor Silva Machado | Desenvolvedor Web & Mobile",
+      "description": "Portfólio de João Vitor Silva Machado, desenvolvedor Web e Mobile com 3 anos de experiência em React, React Native, Node.js e IA aplicada ao desenvolvimento."
+    },
+    "nav": {
+      "about": "Sobre",
+      "skills": "Habilidades",
+      "experience": "Experiência",
+      "projects": "Projetos",
+      "services": "Serviços",
+      "contact": "Contato"
+    },
+    "hero": {
+      "greeting": "Olá, eu sou",
+      "name": "João Vitor Silva Machado",
+      "role": "Desenvolvedor Web & Mobile",
+      "subtitle": "Transformando ideias em código.",
+      "cta_projects": "Ver Projetos",
+      "cta_resume": "Baixar Currículo"
+    },
+    "about": {
+      "title": "Sobre Mim",
+      "text": "Tenho 3 anos de experiência como desenvolvedor Web e Mobile, atuando como freelancer enquanto sigo me aprofundando como estudante na área. Atualmente busco ingressar em uma empresa (CLT) para aplicar e evoluir minhas habilidades em um ambiente colaborativo. Meu foco está em criar soluções Web e Mobile de qualidade, e cada vez mais utilizo Inteligência Artificial como diferencial no meu processo de desenvolvimento — acelerando entregas e otimizando a forma como escrevo e organizo código."
+    },
+    "skills": {
+      "title": "Habilidades",
+      "categories": {
+        "web": "Web",
+        "mobile": "Mobile",
+        "backend": "Backend",
+        "database": "Banco de Dados",
+        "tools": "Ferramentas",
+        "ai": "IA Aplicada"
+      },
+      "ai_highlight": "Uso IA para acelerar desenvolvimento, gerar código e otimizar workflows.",
+      "stack_tag": "<technical-stack />"
+    },
+    "experience": {
+      "title": "Experiência Profissional",
+      "present": "Atual",
+      "freelancer": {
+        "role": "Desenvolvedor Freelancer",
+        "company": "Autônomo",
+        "description": "Desenvolvimento de projetos Web e Mobile para clientes diversos, atuando de forma independente."
+      },
+      "student": {
+        "role": "Estudante de Desenvolvimento",
+        "company": "Formação Contínua",
+        "description": "Aprofundamento em tecnologias Web, Mobile e uso de Inteligência Artificial aplicada ao desenvolvimento."
+      }
+    },
+    "projects": {
+      "title": "Projetos",
+      "view_code": "Ver Código",
+      "view_live": "Ver Projeto",
+      "featured_badge": "Destaque",
+      "placeholder_title": "Projeto em breve",
+      "placeholder_desc": "Descrição do projeto será adicionada aqui.",
+      "connectngo": {
+        "title": "ConnectNGO",
+        "description": "Plataforma que conecta doadores a ONGs, oferecendo pontos que podem ser trocados por benefícios junto a empresas parceiras."
+      }
+    },
+    "services": {
+      "title": "Serviços",
+      "web_dev": {
+        "title": "Desenvolvimento Web",
+        "desc": "Sites e sistemas web modernos, responsivos e performáticos."
+      },
+      "mobile_dev": {
+        "title": "Desenvolvimento Mobile",
+        "desc": "Aplicativos multiplataforma com React Native e Flutter."
+      },
+      "ai_integration": {
+        "title": "Integração com IA",
+        "desc": "Soluções que utilizam Inteligência Artificial para automatizar e otimizar processos."
+      },
+      "database": {
+        "title": "Modelagem e Gestão de Banco de Dados",
+        "desc": "Estruturação, modelagem e administração de bancos de dados relacionais e não relacionais."
+      }
+    },
+    "resume": {
+      "title": "Currículo",
+      "text": "Baixe meu currículo completo em PDF.",
+      "download": "Baixar Currículo"
+    },
+    "contact": {
+      "title": "Contato",
+      "subtitle": "Vamos conversar sobre seu próximo projeto ou oportunidade.",
+      "form": {
+        "name": "Nome",
+        "email": "E-mail",
+        "message": "Mensagem",
+        "submit": "Enviar Mensagem",
+        "success": "Mensagem enviada com sucesso!",
+        "error": "Erro ao enviar. Tente novamente."
+      }
+    },
+    "footer": {
+      "rights": "Todos os direitos reservados.",
+      "made_with": "Feito com código e café."
+    }
+  }
