@@ -2,9 +2,9 @@ import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 
 // PLACEHOLDER: substituir pelas URLs reais de João Vitor
 const socials = [
-  { icon: FiGithub, url: 'https://github.com/SEU_USUARIO_AQUI', label: 'GitHub' },
-  { icon: FiLinkedin, url: 'https://linkedin.com/in/SEU_USUARIO_AQUI', label: 'LinkedIn' },
-  { icon: FiMail, url: 'mailto:seuemail@dominio.com', label: 'Email' },
+  { icon: FiGithub, url: 'https://github.com/JoaoVitor081', label: 'GitHub' },
+  { icon: FiLinkedin, url: 'https://www.linkedin.com/in/jo%C3%A3o-vitor-silva-machado-749157371/', label: 'LinkedIn' },
+  { icon: FiMail, url: 'mailto:jvsm.redtag@gmail.com', label: 'Email' },
 ]
 
 function SocialLinks({ className = '' }) {
