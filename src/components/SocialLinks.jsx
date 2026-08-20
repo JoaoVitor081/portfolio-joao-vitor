@@ -3,7 +3,11 @@ import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 const socials = [
   { icon: FiGithub, url: 'https://github.com/JoaoVitor081', label: 'GitHub' },
   { icon: FiLinkedin, url: 'https://www.linkedin.com/in/jo%C3%A3o-vitor-silva-machado-749157371/', label: 'LinkedIn' },
-  { icon: FiMail, url: 'mailto:jvsm.redtag@gmail.com.br', label: 'Email' },
+  {
+  icon: FiMail,
+  url: 'mailto:jvsm.redtag@gmail.com',
+  label: 'Enviar e-mail',
+},
 ]
 
 function SocialLinks({ className = '' }) {
