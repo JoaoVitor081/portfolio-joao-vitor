@@ -3,9 +3,8 @@ import { motion } from 'framer-motion'
 import { FiDownload } from 'react-icons/fi'
 import Button from '../components/Button'
 
-// PLACEHOLDER: coloque o PDF real em /public/assets/curriculo-joao-vitor.pdf
-const resumeFilePath = '/assets/curriculo-joao-vitor.pdf'
-
+const resumeFilePath =
+  '/assets/curriculo-joao-vitor-silva-machado.pdf'
 function Resume() {
   const { t } = useTranslation()
 
@@ -19,10 +18,13 @@ function Resume() {
       >
         <h3 className="mb-2 font-display text-2xl font-bold">{t('resume.title')}</h3>
         <p className="mb-6 text-white/60">{t('resume.text')}</p>
-        <Button href={resumeFilePath} download className="mx-auto">
-          <FiDownload size={16} />
-          {t('resume.download')}
-        </Button>
+        <Button
+  href={resumeFilePath}
+  download="curriculo-joao-vitor-silva-machado.pdf"
+>
+  <FiDownload size={16} />
+  {t('resume.download')}
+</Button>
       </motion.div>
     </section>
   )

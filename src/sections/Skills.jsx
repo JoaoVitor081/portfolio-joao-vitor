@@ -10,24 +10,23 @@ import {
 } from 'react-icons/si'
 import { BsStars } from 'react-icons/bs'
 
-// PLACEHOLDER: níveis de proficiência (0-100) são estimativas editáveis
 const skillsData = {
   web: [
     { icon: FaHtml5, label: 'HTML', level: 90 },
     { icon: FaCss3Alt, label: 'CSS', level: 85 },
     { icon: FaJs, label: 'JavaScript', level: 85 },
     { icon: FaReact, label: 'React', level: 80 },
-    { icon: SiNextdotjs, label: 'Next.js', level: 70 },
+    { icon: SiNextdotjs, label: 'Next.js', level: 75 },
   ],
   mobile: [
     { icon: FaReact, label: 'React Native', level: 80 },
-    { icon: SiFlutter, label: 'Flutter', level: 65 },
+    { icon: SiFlutter, label: 'Flutter', level: 45 },
   ],
   backend: [
-    { icon: FaNodeJs, label: 'Node.js', level: 75 },
-    { icon: SiPython, label: 'Python', level: 65 },
-    { icon: FaPhp, label: 'PHP', level: 60 },
-    { icon: FaJava, label: 'Java', level: 55 },
+    { icon: FaNodeJs, label: 'Node.js', level: 65 },
+    { icon: SiPython, label: 'Python', level: 45 },
+    { icon: FaPhp, label: 'PHP', level: 70 },
+    { icon: FaJava, label: 'Java', level: 45 },
   ],
   database: [
     { icon: SiPostgresql, label: 'PostgreSQL', level: 75 },
@@ -39,7 +38,7 @@ const skillsData = {
     { icon: FaGithub, label: 'GitHub', level: 85 },
     { icon: FaFigma, label: 'Figma', level: 60 },
     { icon: FaDocker, label: 'Docker', level: 55 },
-    { icon: SiFirebase, label: 'Firebase', level: 70 },
+    { icon: SiFirebase, label: 'Firebase', level: 60 },
   ],
 }
 

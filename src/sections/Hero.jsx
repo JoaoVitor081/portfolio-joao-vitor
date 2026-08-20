@@ -4,8 +4,8 @@ import { FiDownload } from 'react-icons/fi'
 import Button from '../components/Button'
 import NotebookScene from '../components/three/NotebookScene'
 
-// PLACEHOLDER: caminho do currículo em PDF — adicione o arquivo real em /public/assets/
-const resumeFilePath = '/assets/curriculo-joao-vitor.pdf'
+const resumeFilePath =
+  '/assets/curriculo-joao-vitor-silva-machado.pdf'
 
 function Hero() {
   const { t } = useTranslation()
@@ -29,11 +29,14 @@ function Hero() {
         <p className="mx-auto mb-8 max-w-md text-white/60 md:mx-0">{t('hero.subtitle')}</p>
 
         <div className="flex flex-wrap justify-center gap-4 md:justify-start">
-          <Button href="#projects">{t('hero.cta_projects')}</Button>
-          <Button href={resumeFilePath} variant="outline">
-            <FiDownload size={16} />
-            {t('hero.cta_resume')}
-          </Button>
+          <Button
+  href={resumeFilePath}
+  download="curriculo-joao-vitor-silva-machado.pdf"
+  variant="outline"
+>
+  <FiDownload size={16} />
+  {t('hero.cta_resume')}
+</Button>
         </div>
       </motion.div>
 

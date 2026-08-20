@@ -1,8 +1,3 @@
-// PLACEHOLDER: logotipo pessoal ainda não definido.
-// Quando o arquivo final existir, substitua os spans por:
-// import logoImg from '../assets/logo.svg'
-// <img src={logoImg} alt="Logo João Vitor" className="h-8" />
-
 function Logo() {
     return (
       <a

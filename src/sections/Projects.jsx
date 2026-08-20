@@ -2,7 +2,6 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import ProjectCard from '../components/ProjectCard'
 
-// PLACEHOLDER: quando o print do ConnectNGO existir, importe:
 // import connectNgoPreview from '../assets/images/connectngo-preview.webp'
 // e passe em "image: connectNgoPreview"
 
@@ -19,7 +18,7 @@ function Projects() {
       liveUrl: '',
       featured: true,
     },
-    // PLACEHOLDER: adicionar demais projetos aqui
+    //adicionar demais projetos aqui
   ]
 
   return (

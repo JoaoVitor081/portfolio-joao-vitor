@@ -5,16 +5,15 @@ import TimelineItem from '../components/TimelineItem'
 function Experience() {
   const { t } = useTranslation()
 
-  // PLACEHOLDER: períodos (datas) são editáveis
   const experiences = [
     {
-      period: `2023 — ${t('experience.present')}`,
+      period: `2025 — ${t('experience.present')}`,
       role: t('experience.freelancer.role'),
       company: t('experience.freelancer.company'),
       description: t('experience.freelancer.description'),
     },
     {
-      period: `2021 — ${t('experience.present')}`,
+      period: `2024 — ${t('experience.present')}`,
       role: t('experience.student.role'),
       company: t('experience.student.company'),
       description: t('experience.student.description'),
