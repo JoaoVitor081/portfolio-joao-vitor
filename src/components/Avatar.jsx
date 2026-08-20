@@ -1,29 +1,23 @@
-// PLACEHOLDER: foto/avatar do João ainda não definida.
-// Quando a foto estiver disponível, importe e substitua o bloco de iniciais:
-// import avatarImg from '../assets/avatar.jpg'
-// <img src={avatarImg} alt="João Vitor Silva Machado, desenvolvedor Web e Mobile" className="h-full w-full rounded-full object-cover" />
+import avatarImage from '../assets/avatar.jpeg'
 
 function Avatar({ size = 'md' }) {
-    const sizes = {
-      sm: 'h-12 w-12 text-sm',
-      md: 'h-32 w-32 text-2xl',
-      lg: 'h-56 w-56 text-4xl',
-    }
-  
-    return (
-      <div
-        role="img"
-        aria-label="Placeholder da foto de João Vitor Silva Machado"
-        className={`${sizes[size]} rounded-full bg-fire-gradient p-[3px] shadow-glow-fire`}
-      >
-        <div
-          aria-hidden="true"
-          className="flex h-full w-full items-center justify-center rounded-full bg-hack-black font-display font-bold text-fire-gradient"
-        >
-          JV
-        </div>
-      </div>
-    )
+  const sizes = {
+    sm: 'h-12 w-12',
+    md: 'h-32 w-32',
+    lg: 'h-56 w-56',
   }
-  
-  export default Avatar
+
+  return (
+    <div
+      className={`${sizes[size]} overflow-hidden rounded-full border-2 border-fire-orange p-[3px] shadow-glow-fire`}
+    >
+      <img
+        src={avatarImage}
+        alt="João Vitor Silva Machado, desenvolvedor Web e Mobile"
+        className="h-full w-full rounded-full object-cover"
+      />
+    </div>
+  )
+}
+
+export default Avatar
