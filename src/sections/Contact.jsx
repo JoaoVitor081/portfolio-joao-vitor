@@ -27,7 +27,7 @@ function Contact() {
   window.location.href = `mailto:jvsm.redtag@gmail.com?subject=${subject}&body=${body}`
 
   setStatus('success')
-}s
+}
 
   return (
     <section id="contact" className="mx-auto max-w-3xl px-6 py-24">

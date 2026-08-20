@@ -14,5 +14,5 @@ function Logo() {
         </span>
       </a>
     )
-  
+  }
   export default Logo
